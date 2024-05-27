@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(218, 226, 232);
+    justify-content: space-between;
+    position: top;
+
+}
+
+.navbarLogo {
+    display: flex;
+    /* background-color: blue; */
+    width: 200px;
+    height: 100%;
+    gap: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.navbarLogo a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbarItems {
+    margin-right: 35px;
+    display: flex;
+    width: 400px;
+    height: 100%;
+    /* background-color: aquamarine; */
+    gap: 10px;
+}
+
+.navbarItem {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    /* background-color: black; */
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarItemA {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    /* background-color: black; */
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarItemA a {
+    text-decoration: none;
+    color: rgb(211, 53, 38);
+}
+
+.navbarItem a {
+    text-decoration: none;
+    color: black;
+}
+
+.service {
+    display: flexbox;
+    height: 70vh;
+    width: 90%;
+    /* background-color: aquamarine; */
+    flex-direction: column;
+    margin: auto;
+}
+
+.topSec {
+    height: 30%;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.topSec h1 {
+    color: black;
+
+}
+
+.botSec {
+
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.botItems {
+    width: 250px;
+    height: 250px;
+    /* background-color: white; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botItems i {
+    color: rgb(211, 53, 38);
+}
+
+.botItems h2 {
+    /* background-color: aqua; */
+    margin-top: 20px;
+    color: black;
+}
+
+.botItems p {
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    /* background-color: blue; */
+}
